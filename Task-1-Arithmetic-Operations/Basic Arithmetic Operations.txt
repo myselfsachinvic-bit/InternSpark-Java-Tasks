@@ -86,7 +86,7 @@ Add a screenshot showing the Java program running successfully in Eclipse, VS Co
 
 ### GitHub Repository
 
-Add your public GitHub repository link here:
+https://github.com/myselfsachinvic-bit/InternSpark-Java-Tasks.git
 
 `[YOUR GITHUB LINK]`
 
