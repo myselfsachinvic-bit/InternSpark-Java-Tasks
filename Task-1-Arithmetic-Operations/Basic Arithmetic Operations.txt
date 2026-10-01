@@ -1,0 +1,95 @@
+# InternSpark Java Developer Internship
+
+## Task 1: Basic Arithmetic Operations
+
+### Objective
+
+The objective of this task is to develop a Java program that performs basic arithmetic operations including addition, subtraction, multiplication, and division.
+
+### Technologies Used
+
+* Java
+* Java Scanner class
+* Eclipse / VS Code
+* JDK 17 or later
+
+### Implementation
+
+The program accepts two numbers from the user and performs the four basic arithmetic operations. It also handles the division-by-zero case to prevent an invalid arithmetic operation.
+
+### Source Code
+
+```java
+import java.util.Scanner;
+
+public class ArithmeticOperations {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("===== Basic Arithmetic Operations =====");
+
+        System.out.print("Enter first number: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.print("Enter second number: ");
+        double num2 = scanner.nextDouble();
+
+        double addition = num1 + num2;
+        double subtraction = num1 - num2;
+        double multiplication = num1 * num2;
+
+        System.out.println("\n----- Results -----");
+        System.out.println("Addition       : " + addition);
+        System.out.println("Subtraction    : " + subtraction);
+        System.out.println("Multiplication : " + multiplication);
+
+        if (num2 != 0) {
+            double division = num1 / num2;
+            System.out.println("Division       : " + (num1 / num2));
+        } else {
+            System.out.println("Division       : Cannot divide by zero.");
+        }
+
+        scanner.close();
+    }
+}
+```
+
+### How to Run
+
+```bash
+javac ArithmeticOperations.java
+java ArithmeticOperations
+```
+
+### Sample Input
+
+```text
+Enter first number: 20
+Enter second number: 5
+```
+
+### Sample Output
+
+```text
+Addition       : 25.0
+Subtraction    : 15.0
+Multiplication : 100.0
+Division       : 4.0
+```
+
+### Screenshot
+
+Add a screenshot showing the Java program running successfully in Eclipse, VS Code, or Command Prompt.
+
+### GitHub Repository
+
+Add your public GitHub repository link here:
+
+`[YOUR GITHUB LINK]`
+
+### Conclusion
+
+This task demonstrates the use of Java variables, arithmetic operators, user input using Scanner, conditional statements, and basic exception-prevention logic.

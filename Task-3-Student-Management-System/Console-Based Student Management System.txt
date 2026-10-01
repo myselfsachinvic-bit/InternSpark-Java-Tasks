@@ -1,0 +1,112 @@
+# InternSpark Java Developer Internship
+
+## Task 3: Console-Based Student Management System
+
+### Objective
+
+The objective of this task is to develop a simple console-based Student Management System using Java.
+
+The application allows users to add, view, search, update, and delete student records through a menu-driven interface.
+
+### Features
+
+* Add a new student
+* View all students
+* Search student by ID
+* Update student information
+* Delete student
+* Validate numeric input
+* Prevent duplicate student IDs
+* Exit the application
+
+### Technologies Used
+
+* Java
+* ArrayList
+* Scanner
+* Object-Oriented Programming
+* Console-based user interface
+
+### Project Structure
+
+```text
+Task-3-Student-Management-System/
+├── Student.java
+└── StudentManagementSystem.java
+```
+
+### Source Code
+
+The project contains two classes:
+
+**Student.java**
+
+The Student class stores student information including ID, name, age, and course. It also contains getters, setters, and a method for displaying student information.
+
+**StudentManagementSystem.java**
+
+This class contains the main application and implements the menu-driven operations for adding, viewing, searching, updating, and deleting students.
+
+### How to Run
+
+Compile both Java files:
+
+```bash
+javac Student.java StudentManagementSystem.java
+```
+
+Run the application:
+
+```bash
+java StudentManagementSystem
+```
+
+### Sample Operations
+
+```text
+1. Add Student
+2. View Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Exit
+```
+
+### Sample Output
+
+```text
+Enter your choice: 1
+
+Enter Student ID: 101
+Enter Name: Sachin
+Enter Age: 21
+Enter Course: B.Tech CSE
+
+Student added successfully.
+```
+
+After selecting View Students:
+
+```text
+----- Student List -----
+ID: 101 | Name: Sachin | Age: 21 | Course: B.Tech CSE
+```
+
+### Screenshot
+
+Add screenshots demonstrating:
+
+1. Main menu
+2. Adding a student
+3. Viewing students
+4. Searching a student
+5. Updating a student
+6. Deleting a student
+
+### GitHub Repository
+
+`[YOUR GITHUB LINK]`
+
+### Conclusion
+
+This project demonstrates practical use of Java collections, classes, objects, encapsulation, methods, loops, conditional statements, user input, and CRUD-style operations in a console application.

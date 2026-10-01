@@ -1,0 +1,84 @@
+# InternSpark Java Developer Internship
+
+## Task 2: Demonstrating OOP Concepts in Java
+
+### Objective
+
+The objective of this task is to create a Java class that demonstrates fundamental Object-Oriented Programming concepts such as classes, objects, constructors, methods, and encapsulation.
+
+### OOP Concepts Demonstrated
+
+1. **Class** – A blueprint used to define the properties and behavior of a student.
+2. **Object** – An instance of the Student class.
+3. **Constructor** – Used to initialize student information when an object is created.
+4. **Methods** – Used to define the behavior of the Student object.
+5. **Encapsulation** – Student data members are declared private.
+
+### Source Code
+
+```java
+class Student {
+
+    private String name;
+    private int age;
+    private String course;
+
+    public Student(String name, int age, String course) {
+        this.name = name;
+        this.age = age;
+        this.course = course;
+    }
+
+    public void displayDetails() {
+        System.out.println("----- Student Details -----");
+        System.out.println("Name   : " + name);
+        System.out.println("Age    : " + age);
+        System.out.println("Course : " + course);
+    }
+
+    public void study() {
+        System.out.println(name + " is studying " + course + ".");
+    }
+
+    public static void main(String[] args) {
+
+        Student student = new Student(
+                "Sachin",
+                21,
+                "B.Tech Computer Science"
+        );
+
+        student.displayDetails();
+        student.study();
+    }
+}
+```
+
+### How to Run
+
+```bash
+javac Student.java
+java Student
+```
+
+### Sample Output
+
+```text
+----- Student Details -----
+Name   : Sachin
+Age    : 21
+Course : B.Tech Computer Science
+Sachin is studying B.Tech Computer Science.
+```
+
+### Screenshot
+
+Add a screenshot showing the program executing successfully.
+
+### GitHub Repository
+
+`[YOUR GITHUB LINK]`
+
+### Conclusion
+
+This task demonstrates how Java uses object-oriented programming to organize data and behavior using classes and objects. The implementation also demonstrates constructors, methods, and encapsulation.
